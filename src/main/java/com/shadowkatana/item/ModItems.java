@@ -1,6 +1,5 @@
 package com.shadowkatana.item;
 
-import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;
 import net.minecraft.item.ToolMaterials;
 import net.minecraft.registry.Registries;
@@ -11,7 +10,7 @@ public class ModItems {
 
     public static final Item SHADOW_KATANA = new ShadowKatanaItem(
             ToolMaterials.NETHERITE,
-            new FabricItemSettings().maxDamage(2031)
+            new Item.Settings().maxDamage(2031)
     );
 
     public static void register() {
