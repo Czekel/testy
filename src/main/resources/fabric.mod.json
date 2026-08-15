@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "shadowkatana",
+  "version": "${version}",
+  "name": "Katana Cienia",
+  "description": "Dodaje Katane Cienia - miecz ze specjalnymi wlasciwosciami: efekt Ciemnosci na trafionym celu, lifesteal i zdolnosc Dash (PPM).",
+  "authors": ["Ty"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.shadowkatana.ShadowKatanaMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "~1.21.1",
+    "java": ">=21"
+  }
+}
