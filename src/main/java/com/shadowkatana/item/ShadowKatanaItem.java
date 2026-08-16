@@ -69,4 +69,4 @@ public class ShadowKatanaItem extends Item {
 
         return ActionResult.SUCCESS;
     }
-    }
+}
